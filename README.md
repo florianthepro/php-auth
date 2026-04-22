@@ -13,11 +13,11 @@ Authetication via php
 </table>
 -->
 
-> [!IMPORTANT]
-> pw.txt htaccess sperren
-
 > [!NOTE]
 > pw.txt erstellen
+
+> [!IMPORTANT]
+> pw.txt htaccess sperren
 
 > [!TIP]
 > Apache+php:
