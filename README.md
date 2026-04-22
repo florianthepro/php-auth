@@ -41,7 +41,14 @@ Authetication via php
 
 Copy paste all to dir
 
-use it (same dir)
+use it (same dir)(inside php script(first line))
 ```
 <?php session_start();require __DIR__ . '/check.php';require_login();?>
+```
+
+.htaccess:
+```
+<Files "pw.txt">
+    Require all denied
+</Files>
 ```
