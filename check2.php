@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-define('PW_FILE', __DIR__ . '/pw.txt');
+define('PW_FILE', __DIR__ . '/pw2.txt');
 define('SESSION_KEY', 'login_tokens');
 
 function load_users(): array {
